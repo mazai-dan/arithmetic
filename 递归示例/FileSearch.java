@@ -14,7 +14,6 @@ public class FileSearch {
 
     public static void  deepFile(File file){
         if (file.isFile() ||0 ==  file.listFiles().length){
-            tabNum=0;
             return;
         } else {
            File[] fileList =  file.listFiles();
